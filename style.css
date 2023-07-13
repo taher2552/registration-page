@@ -12,6 +12,11 @@
   font-family: "Work Sans", sans-serif;
 }
 
+input:focus{
+  outline:none;
+  border: 1px solid #656e7a;
+}
+
 /* nav bar css starts here  */
 
 .main-nav {
@@ -199,7 +204,7 @@
 }
 
 .registration-form-input{
-  width: 95%;
+   width: 100%;
     border: 1px solid #51bff0;
     outline: none;
     padding: 11px;
@@ -211,8 +216,13 @@
 .form-division{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
+}
+
+.form-division select{
+  color: #656e7a;
+  width: 100%;
 }
 /* left side css ends here  */
 
