@@ -239,6 +239,19 @@ input:focus{
   cursor: pointer;
 
 }
+
+.agree-checkbox{
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #656e7a;
+    user-select: none;
+    text-transform: unset;
+    font-family: "Montserrat", sans-serif;
+}
 /* left side css ends here  */
 
 /* middle portion css ends here  */
