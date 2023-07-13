@@ -204,7 +204,7 @@ input:focus{
 }
 
 .registration-form-input{
-   width: 100%;
+  width:100%;
     border: 1px solid #51bff0;
     outline: none;
     padding: 11px;
@@ -214,11 +214,13 @@ input:focus{
 }
 
 .form-division{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap:10px;
 
 }
+
+
 
 .form-division select{
   color: #656e7a;
