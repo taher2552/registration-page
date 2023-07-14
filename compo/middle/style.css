@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* middle portion css starts here  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  input:focus{
+    outline:none;
+    border: 1px solid #656e7a;
+  }
 
-/* left side css starts here  */
+  /* left side css starts here  */
 
 .main-registration {
   display: grid;
@@ -39,7 +50,6 @@
 .data-load ul {
   list-style: none;
   padding-left: 1rem;
-
 }
 
 .data-load ul li {
@@ -80,16 +90,16 @@
   cursor: pointer;
 }
 
-.help-email{
-    font-weight: 600;
-    margin-top: -1rem;
+.help-email {
+  font-weight: 600;
+  margin-top: -1rem;
 }
 
 /* left side css ends here  */
 
 /* right side css starts here  */
 
-.registration-form-section{
+.registration-form-section {
   margin-top: 5rem;
   margin-right: 7.5rem;
   margin-left: 4rem;
@@ -97,8 +107,9 @@
   background: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  width:32rem;
+  width: 32rem;
   height: auto;
+  margin-bottom: 4rem;
 }
 
 .registration-form-heading {
@@ -111,44 +122,41 @@
   text-align: center;
 }
 
-.welcome-planer{
+.welcome-planer {
   text-align: center;
-    color: #656e7a;
-    font-size: 0.93rem;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin: 0 0 26px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.5rem;
+  color: #656e7a;
+  font-size: 0.93rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0 0 26px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5rem;
 }
 
-.registration-form-input{
-  width:100%;
-    border: 1px solid #51bff0;
-    outline: none;
-    padding: 11px;
-    border-radius: 7px;
-    font-size: 1rem;
-    margin-bottom: 1.313rem;
-    cursor: pointer;
+.registration-form-input {
+  width: 100%;
+  border: 1px solid #51bff0;
+  outline: none;
+  padding: 11px;
+  border-radius: 7px;
+  font-size: 1rem;
+  margin-bottom: 1.313rem;
+  cursor: pointer;
 }
 
-.form-division{
+.form-division {
   display: grid;
   grid-template-columns: auto auto;
-  column-gap:10px;
-
+  column-gap: 10px;
 }
 
-
-
-.form-division select{
+.form-division select {
   color: #656e7a;
   width: 100%;
 }
 
-.two-select select{
-  width:100%;
+.two-select select {
+  width: 100%;
   border: 1px solid #51bff0;
   outline: none;
   padding: 11px;
@@ -157,51 +165,68 @@
   margin-bottom: 1.313rem;
   cursor: pointer;
   color: #656e7a;
-
 }
 
-.agree-checkbox{
-    padding-left: 0.5rem;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 22px;
-    color: #656e7a;
-    user-select: none;
-    text-transform: unset;
-    font-family: "Montserrat", sans-serif;
-    cursor: pointer;
+.agree-checkbox {
+  padding-left: 0.5rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #656e7a;
+  user-select: none;
+  text-transform: unset;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
 
-.agree-checkbox span{
-  color:#f49c00;
+.agree-checkbox span {
+  color: #f49c00;
   font-weight: 600;
 }
 
-.agree-tick{
+.agree-tick {
   cursor: pointer;
   position: relative;
-  top:2px;
+  top: 2px;
 }
 
-.confirm-register{
+.confirm-register {
   text-align: center;
-    color: #656e7a;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
-    margin: 0 0 26px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 0.75rem;
-    line-height: 0.9375rem;
-    margin-top: 1rem;
+  color: #656e7a;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0 0 26px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  margin-top: 1rem;
 }
 
-.confirm-register span{
-  color:#f49c00;
+.confirm-register span {
+  color: #f49c00;
   font-weight: 600;
 }
-/*right side css ends here  */
 
-/* middle portion css ends here  */
+.registration-form-submit {
+  color: white;
+  background-color: #51bff0;
+  border: 1px solid #51bff0;
+  min-width: 148px;
+  padding: 8px 32px 8px 48px;
+  font-size: 0.9375rem;
+  line-height: 1.5em;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.registration-form-submit:hover {
+  border: 1px solid #51bff0;
+  color: #51bff0;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+/* right side css ends here  */
