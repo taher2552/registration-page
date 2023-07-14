@@ -95,6 +95,8 @@ input:focus {
 .main-registration {
   display: grid;
   grid-template-columns: auto auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .free-trial-section {
@@ -315,7 +317,29 @@ input:focus {
 
 .registration-footer1 {
   background-color: #36454f;
-  color:white;
+  color: white;
   text-align: center;
 }
+
+.footer-contact p:first-child {
+  margin-bottom: 25px;
+  padding: 0;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 5rem;
+}
+
+.award-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0 0;
+}
+
+.footer-img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 /* footer css ends here  */
