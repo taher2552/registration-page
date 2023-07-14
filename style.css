@@ -49,7 +49,7 @@ input:focus {
   text-transform: capitalize;
   color: #000000;
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.5s ease-in-out;
   font-family: "Work Sans", sans-serif;
   padding: 0 18px;
 }
@@ -69,20 +69,34 @@ input:focus {
 
 .fee-trial {
   margin-right: 7rem;
-  padding: 8px 32px;
+  padding: 10px 32px;
   background-color: #51bff0;
+  border: 1px solid #51bff0;
   color: #fff;
   border-radius: 18px;
   cursor: pointer;
   margin-left: 1rem;
 }
 
+.fee-trial:hover{
+  color: #51bff0;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
 .four-min-demo {
   background-color: #f49c00;
-  padding: 8px 32px;
+  padding: 10px 32px;
   color: #fff;
+  border: 1px solid #f49c00;
   border-radius: 18px;
   cursor: pointer;
+}
+
+.four-min-demo:hover{
+ background-color: #fff;
+ color:#f49c00;
+ transition: all 0.5s ease-in-out;
 }
 
 .help-email {
@@ -327,7 +341,7 @@ input:focus {
   background-color: #36454f;
   color: white;
   text-align: center;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 
@@ -438,7 +452,7 @@ input:focus {
 .registration-footer2 {
   background: #5b6772;
   padding: 22px 3.5rem;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: 0 auto;
   color: #fff;
   font-size: 0.875rem;
