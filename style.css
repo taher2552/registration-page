@@ -322,6 +322,7 @@ input:focus {
   line-height: 1.5em;
   border-radius: 2rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .registration-form-submit:hover {
@@ -422,7 +423,7 @@ input:focus {
 }
 
 .footer-desc {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -451,16 +452,17 @@ input:focus {
 
 .registration-footer2 {
   background: #5b6772;
-  padding: 22px 3.5rem;
+  padding: 1.5rem 6rem;
   /* max-width: 1440px; */
   margin: 0 auto;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Work Sans", sans-serif;
 }
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
