@@ -1,22 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  input:focus{
-    outline:none;
-    border: 1px solid #656e7a;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /* left side css starts here  */
+.registration-font-style {
+  line-height: 1.1875em;
+  text-transform: capitalize;
+  font-family: "Work Sans", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #656e7a;
+}
+
+/* middle portion css starts here  */
+
+/* left side css starts here  */
 
 .main-registration {
   display: grid;
   grid-template-columns: auto auto;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .free-trial-section {
@@ -86,7 +95,8 @@
 
 .looking-support span {
   color: #f49c00;
-  text-decoration: underline;
+  border-bottom: 2px solid #f49c00;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -208,6 +218,7 @@
 .confirm-register span {
   color: #f49c00;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .registration-form-submit {
@@ -229,4 +240,6 @@
   transition: all 0.5s ease-in-out;
 }
 
-/* right side css ends here  */
+/*right side css ends here  */
+
+/* middle portion css ends here  */

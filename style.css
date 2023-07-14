@@ -78,7 +78,7 @@ input:focus {
   margin-left: 1rem;
 }
 
-.fee-trial:hover{
+.fee-trial:hover {
   color: #51bff0;
   background-color: #fff;
   transition: all 0.5s ease-in-out;
@@ -93,10 +93,10 @@ input:focus {
   cursor: pointer;
 }
 
-.four-min-demo:hover{
- background-color: #fff;
- color:#f49c00;
- transition: all 0.5s ease-in-out;
+.four-min-demo:hover {
+  background-color: #fff;
+  color: #f49c00;
+  transition: all 0.5s ease-in-out;
 }
 
 .help-email {
