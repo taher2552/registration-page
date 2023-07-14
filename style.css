@@ -172,7 +172,8 @@ input:focus {
 
 .looking-support span {
   color: #f49c00;
-  text-decoration: underline;
+  border-bottom: 2px solid #f49c00;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -294,6 +295,7 @@ input:focus {
 .confirm-register span {
   color: #f49c00;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .registration-form-submit {
@@ -405,8 +407,8 @@ input:focus {
   color: #51bff0;
 }
 
-.footer-desc{
-  width:80%;
+.footer-desc {
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -421,7 +423,6 @@ input:focus {
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px 0;
-
 }
 
 .footer-img-fluid {
@@ -434,7 +435,26 @@ input:focus {
 
 /* footer2 css starts here  */
 
+.registration-footer2 {
+  background: #5b6772;
+  padding: 22px 3.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 0.875rem;
+  font-family: "Work Sans", sans-serif;
+}
 
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
 
+.footer-bottom span {
+  color: #f49c00;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 2px solid #f49c00;
+}
 
 /* footer2 css ends here  */
