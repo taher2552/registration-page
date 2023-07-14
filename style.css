@@ -17,6 +17,8 @@ input:focus {
   border: 1px solid #656e7a;
 }
 
+
+
 /* nav bar css starts here  */
 
 .main-nav {
@@ -54,10 +56,19 @@ input:focus {
   padding: 0 18px;
 }
 
+
+
 .registration-navbar ul li a:hover {
   color: #51bff0;
   border-bottom: 2px solid #51bff0;
   padding-bottom: 3px;
+}
+
+.registration-active{
+  color: #51bff0 !important;
+  border-bottom: 2px solid #51bff0;
+  padding-bottom: 3px !important;
+
 }
 
 .registration-nav-logo img {
@@ -124,7 +135,7 @@ input:focus {
 }
 
 .free-trial-heading {
-  padding-top: 5rem;
+  padding-top: 7rem;
   color: #06386c;
   font-size: 3rem;
   text-transform: capitalize;
@@ -201,7 +212,7 @@ input:focus {
 /* right side css starts here  */
 
 .registration-form-section {
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-right: 7.5rem;
   margin-left: 4rem;
   padding: 2.25rem 2.875rem;
@@ -344,6 +355,10 @@ input:focus {
   text-align: center;
   /* max-width: 1440px; */
   margin: 0 auto;
+}
+
+.registration-footer-active{
+  color: #51bff0 !important;
 }
 
 .footer-contact p:first-child {
