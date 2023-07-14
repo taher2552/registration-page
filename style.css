@@ -71,6 +71,13 @@ input:focus {
 
 }
 
+.register-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .registration-nav-logo img {
   width: 4.3125rem;
   max-width: 100%;
@@ -80,13 +87,13 @@ input:focus {
 
 .fee-trial {
   margin-right: 7rem;
-  padding: 10px 32px;
   background-color: #51bff0;
   border: 1px solid #51bff0;
   color: #fff;
-  border-radius: 18px;
+  border-radius: 100px;
   cursor: pointer;
   margin-left: 1rem;
+  padding-right: 25px;
 }
 
 .fee-trial:hover {
@@ -97,17 +104,26 @@ input:focus {
 
 .four-min-demo {
   background-color: #f49c00;
-  padding: 10px 32px;
   color: #fff;
   border: 1px solid #f49c00;
-  border-radius: 18px;
+  border-radius: 100px;
   cursor: pointer;
+  padding-right: 25px;
 }
 
 .four-min-demo:hover {
   background-color: #fff;
   color: #f49c00;
   transition: all 0.5s ease-in-out;
+}
+
+.register-arrow{
+  background-color: rgba(225,225,225,0.5);
+  color:#fff;
+  padding:10px;
+  border-radius: 100px;
+  margin:1px;
+  margin-right: 10px;
 }
 
 .help-email {
