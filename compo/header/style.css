@@ -6,16 +6,19 @@
   box-sizing: border-box;
 }
 
+input:focus {
+  outline: none;
+  border: 1px solid #656e7a;
+}
+
 .registration-font-style {
   line-height: 1.1875em;
   text-transform: capitalize;
   font-family: "Work Sans", sans-serif;
 }
 
-input:focus {
-  outline: none;
-  border: 1px solid #656e7a;
-}
+
+
 
 /* nav bar css starts here  */
 
@@ -54,10 +57,26 @@ input:focus {
   padding: 0 18px;
 }
 
+
+
 .registration-navbar ul li a:hover {
   color: #51bff0;
   border-bottom: 2px solid #51bff0;
   padding-bottom: 3px;
+}
+
+.registration-active{
+  color: #51bff0 !important;
+  border-bottom: 2px solid #51bff0;
+  padding-bottom: 3px !important;
+
+}
+
+.register-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .registration-nav-logo img {
@@ -69,13 +88,13 @@ input:focus {
 
 .fee-trial {
   margin-right: 7rem;
-  padding: 10px 32px;
   background-color: #51bff0;
   border: 1px solid #51bff0;
   color: #fff;
-  border-radius: 18px;
+  border-radius: 100px;
   cursor: pointer;
   margin-left: 1rem;
+  padding-right: 25px;
 }
 
 .fee-trial:hover {
@@ -86,17 +105,26 @@ input:focus {
 
 .four-min-demo {
   background-color: #f49c00;
-  padding: 10px 32px;
   color: #fff;
   border: 1px solid #f49c00;
-  border-radius: 18px;
+  border-radius: 100px;
   cursor: pointer;
+  padding-right: 25px;
 }
 
 .four-min-demo:hover {
   background-color: #fff;
   color: #f49c00;
   transition: all 0.5s ease-in-out;
+}
+
+.register-arrow{
+  background-color: rgba(225,225,225,0.5);
+  color:#fff;
+  padding:10px;
+  border-radius: 100px;
+  margin:1px;
+  margin-right: 10px;
 }
 
 .help-email {

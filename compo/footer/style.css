@@ -11,6 +11,7 @@ input:focus {
   border: 1px solid #656e7a;
 }
 
+
 /* footer1 css starts here  */
 
 .registration-footer1 {
@@ -19,6 +20,10 @@ input:focus {
   text-align: center;
   /* max-width: 1440px; */
   margin: 0 auto;
+}
+
+.registration-footer-active{
+  color: #51bff0 !important;
 }
 
 .footer-contact p:first-child {
@@ -98,7 +103,7 @@ input:focus {
 }
 
 .footer-desc {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -127,16 +132,17 @@ input:focus {
 
 .registration-footer2 {
   background: #5b6772;
-  padding: 22px 3.5rem;
+  padding: 1.5rem 6rem;
   /* max-width: 1440px; */
   margin: 0 auto;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: "Work Sans", sans-serif;
 }
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 

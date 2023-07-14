@@ -6,16 +6,11 @@
   box-sizing: border-box;
 }
 
-.registration-font-style {
-  line-height: 1.1875em;
-  text-transform: capitalize;
-  font-family: "Work Sans", sans-serif;
-}
-
 input:focus {
   outline: none;
   border: 1px solid #656e7a;
 }
+
 
 /* middle portion css starts here  */
 
@@ -33,7 +28,7 @@ input:focus {
 }
 
 .free-trial-heading {
-  padding-top: 5rem;
+  padding-top: 7rem;
   color: #06386c;
   font-size: 3rem;
   text-transform: capitalize;
@@ -110,7 +105,7 @@ input:focus {
 /* right side css starts here  */
 
 .registration-form-section {
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-right: 7.5rem;
   margin-left: 4rem;
   padding: 2.25rem 2.875rem;
@@ -231,6 +226,7 @@ input:focus {
   line-height: 1.5em;
   border-radius: 2rem;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .registration-form-submit:hover {
